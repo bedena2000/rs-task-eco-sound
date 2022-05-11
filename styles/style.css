@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Koulen', cursive;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a { 
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Header */
+
+.header-wrapper {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 20px 20px;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.header-logo:hover {
+  background-image: url("../img/favicon.ico");
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.header-menu-item__link {
+  color: #ffffff;
+  font-size: 22px;
+  transition: color .3s ease;
+}
+
+.header-menu-item__link:hover {
+  color: crimson;
+}
+
+/* Header */
+
+/* Main */
+.main {
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+.main-image-wrapper {
+  background-image: url("../img/solovey.jpg");  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-image-logo {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  background-image: url("../img/play.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .3s ease;
+}
+
+
+.main-image-logo-2 {
+  background-image: url("../img/pause.svg");
+}
+
+/* Main */
+
+/* Footer */
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rs-school-link__src {
+  background-image: url("../img/rss.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 135px;
+  height: 50px;
+  transition: all .3s ease;
+}
+/* Footer */
+
+
+
+
